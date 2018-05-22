@@ -5,3 +5,4 @@ python_telegram_bot==8.1.1
 FSC==0.0.1
 config==0.3.9
 telegram==0.0.1
+import seaborn==0.8.1
