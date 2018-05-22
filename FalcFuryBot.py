@@ -48,7 +48,8 @@ def echo_all(updates):
             #keyboard = build_keyboard()
             send_message("Hii", chat)
     except Exception as e:
-        print(e)
+        #print(e)
+        pass
         
 def get_last_chat_id_and_text(updates):
     num_updates = len(updates["result"])
@@ -75,12 +76,12 @@ def build_keyboard():
 
 def main():
     last_update_id = None
-    print("Stage - 1")
+    #print("Stage - 1")
     while True:
         updates = get_updates(last_update_id)
         if len(updates["result"]) > 0:
             last_update_id = get_last_update_id(updates) + 1
-            print("Stage - 2")
+            #print("Stage - 2")
             echo_all(updates)
         time.sleep(0.5)
 
