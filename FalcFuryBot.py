@@ -9,7 +9,7 @@ import random
 from chatbotLayout import iinput
 import os
 
-TOKEN = "457762085:AAE9eFQrFHOq-OJoEyMLCx2O85kGpl3sEY4"
+TOKEN = "555183754:AAFbkdurKthflTQTpn6-HNpkFO5UA7VuBHk"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 def get_url(url):
