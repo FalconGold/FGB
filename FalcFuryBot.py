@@ -4,7 +4,7 @@ import time
 import urllib
 import urllib.request
 #from BrainFalcFury import data
-import config
+#import config
 import random
 from chatbotLayout import iinput
 import os
