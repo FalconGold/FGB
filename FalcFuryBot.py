@@ -43,10 +43,10 @@ def echo_all(updates):
         for update in updates["result"]:
             text = update["message"]["text"]
             chat = update["message"]["chat"]["id"]
-            text = iinput(text, chat)
-            print(text)
-            keyboard = build_keyboard()
-            send_message(text, chat, keyboard)
+            #text = iinput(text, chat)
+            #print(text)
+            #keyboard = build_keyboard()
+            send_message("Hii", chat)
     except Exception as e:
         print(e)
         
